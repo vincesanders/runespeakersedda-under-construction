@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons'
 
 const Message = () => {
     return (
@@ -7,6 +9,7 @@ const Message = () => {
             <h1>Runespeaker's Edda</h1>
             <hr />
             <h2>Coming Soon</h2>
+            <a href='https://www.facebook.com/RunespeakersEdda/'><FontAwesomeIcon icon={faFacebookSquare} /></a>
         </Container>
     );
 }
@@ -29,6 +32,21 @@ const Container = styled.div`
         font-size: 5rem;
         text-transform: uppercase;
         letter-spacing: 4px;
+        @media (max-width: 750px) {
+            font-size: 4rem;
+        }
+        @media (max-width: 600px) {
+            font-size: 3rem;
+        }
+        @media (max-width: 475px) {
+            font-size: 2.5rem;
+        }
+        @media (max-width: 400px) {
+            font-size: 2rem;
+        }
+        @media (max-width: 330px) {
+            font-size: 1.8rem;
+        }
     }
     hr {
         border-width: 2px;
@@ -38,6 +56,16 @@ const Container = styled.div`
         margin-top: 20px;
         font-size: 2rem;
         letter-spacing: 2px;
+    }
+    a {
+        margin-top: 14px;
+        font-size: 3rem;
+        text-decoration: none;
+        color: #fff;
+        &:hover {
+            /* color: #385898; */
+            color: #ccc;
+        }
     }
 `
 

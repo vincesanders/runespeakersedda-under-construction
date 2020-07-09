@@ -4,6 +4,7 @@ import Message from './components/Message';
 import treeImage from './assets/IMG_2700.JPG';
 
 function App() {
+  //TODO: add Facebook link at bottom with Font Awesome icon.
   return (
     <Container>
       <div className='overlay' />
@@ -26,6 +27,9 @@ const Container = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
+  @media (max-width: 650px) {
+    background-position: center;
+  }
   .overlay {
     position: absolute;
     top: 0;
