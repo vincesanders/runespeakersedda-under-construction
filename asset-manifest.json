@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/runespeakersedda-under-construction/static/css/main.b9f306e0.chunk.css",
+    "main.js": "/runespeakersedda-under-construction/static/js/main.a70606cf.chunk.js",
+    "main.js.map": "/runespeakersedda-under-construction/static/js/main.a70606cf.chunk.js.map",
+    "runtime-main.js": "/runespeakersedda-under-construction/static/js/runtime-main.94151507.js",
+    "runtime-main.js.map": "/runespeakersedda-under-construction/static/js/runtime-main.94151507.js.map",
+    "static/js/2.8a7e2b9f.chunk.js": "/runespeakersedda-under-construction/static/js/2.8a7e2b9f.chunk.js",
+    "static/js/2.8a7e2b9f.chunk.js.map": "/runespeakersedda-under-construction/static/js/2.8a7e2b9f.chunk.js.map",
+    "index.html": "/runespeakersedda-under-construction/index.html",
+    "precache-manifest.ac439896510ccc9425f3e96c9a85d7df.js": "/runespeakersedda-under-construction/precache-manifest.ac439896510ccc9425f3e96c9a85d7df.js",
+    "service-worker.js": "/runespeakersedda-under-construction/service-worker.js",
+    "static/css/main.b9f306e0.chunk.css.map": "/runespeakersedda-under-construction/static/css/main.b9f306e0.chunk.css.map",
+    "static/js/2.8a7e2b9f.chunk.js.LICENSE.txt": "/runespeakersedda-under-construction/static/js/2.8a7e2b9f.chunk.js.LICENSE.txt",
+    "static/media/IMG_2700.JPG": "/runespeakersedda-under-construction/static/media/IMG_2700.1d5f5556.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94151507.js",
+    "static/js/2.8a7e2b9f.chunk.js",
+    "static/css/main.b9f306e0.chunk.css",
+    "static/js/main.a70606cf.chunk.js"
+  ]
+}
