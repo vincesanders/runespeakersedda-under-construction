@@ -1,12 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
+import Message from './components/Message';
 import treeImage from './assets/IMG_2700.JPG';
 
 function App() {
   return (
     <Container>
       <div className='overlay' />
-      <img alt='An image of a large tree.' src={treeImage} />
+      <Message />
     </Container>
   );
 }
@@ -14,12 +15,16 @@ function App() {
 const Container = styled.div`
   position: relative;
   width: 100%;
+  height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0;
   padding: 0;
-  background-color: #000;
+  background-image: url(${treeImage});
+  background-size: cover;
+  background-repeat: no-repeat;
   overflow: hidden;
   .overlay {
     position: absolute;
@@ -30,12 +35,6 @@ const Container = styled.div`
     height: 100%;
     background-color: rgba(0,0,0,0.5);
   }
-  img {
-      /* height: 100%; */
-      width: 80%;
-      margin: 0;
-      padding: 0;
-    }
 `
 
 export default App;
