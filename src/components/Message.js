@@ -63,7 +63,7 @@ const Container = styled.div`
         text-decoration: none;
         color: #fff;
         &:hover {
-            /* color: #385898; */
+            /* color: #385899; */
             color: #ccc;
         }
     }
