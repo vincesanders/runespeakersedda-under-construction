@@ -33,19 +33,19 @@ const Container = styled.div`
         text-transform: uppercase;
         letter-spacing: 4px;
         @media (max-width: 750px) {
-            font-size: 4rem;
+            font-size: 3.5rem;
         }
         @media (max-width: 600px) {
-            font-size: 3rem;
-        }
-        @media (max-width: 475px) {
             font-size: 2.5rem;
         }
-        @media (max-width: 400px) {
+        @media (max-width: 475px) {
             font-size: 2rem;
         }
-        @media (max-width: 330px) {
+        @media (max-width: 400px) {
             font-size: 1.6rem;
+        }
+        @media (max-width: 330px) {
+            font-size: 1.4rem;
         }
     }
     hr {
